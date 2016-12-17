@@ -1,10 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import Navbar from './Navbar'
+import Carousel from './Carousel'
+import '../css/Navbar.css'
 
 export default class Home extends Component {
   render () {
     return (
       <div>
-        <h1>Hello!</h1>
+        <Navbar/>
+        <Carousel/>
       </div>
     )
   }

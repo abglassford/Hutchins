@@ -5,7 +5,6 @@ import './css/index.css';
 import App from './components/App';
 import Home from './components/Home';
 
-
 render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
