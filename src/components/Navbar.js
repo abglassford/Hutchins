@@ -23,7 +23,7 @@ export default class Navbar extends Component {
                 <li className="dropdown">
                   <a  className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span className="caret"></span></a>
                   <ul className="dropdown-menu">
-                    <li><a href="#">Gallery</a></li>
+                    <li><Link to="gallery">Gallery</Link></li>
                     <li><a href="#">About Us</a></li>
                     <li role="separator" className="divider"></li>
                     <li><a href="#">Contact</a></li>
